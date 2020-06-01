@@ -5,7 +5,7 @@ html {
 
 
 body {
-    
+    background-color: rgba(66, 60, 60, 0.151);
     min-height: 400px;
     background-image: url(IMG/hamburger-2044036_1920.jpg);
     background-size: cover;
