@@ -6,7 +6,6 @@ html {
 
 body {
     background-color: rgba(66, 60, 60, 0.151);
-    min-height: 400px;
     background-image: url(IMG/hamburger-2044036_1920.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -20,14 +19,14 @@ body {
     width: 1024px;
 }
 header {
-    min-height: 100px;
+    
     height: 118px;
    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: auto;
+    margin-right: auto;
 }
 nav {
-    min-height: 40px;
+
     background-color: rgba(0, 0, 0, 0.473);
    padding-top: 14px;
     text-align: center;
@@ -84,11 +83,4 @@ footer p {
     padding-bottom:  100px;
 
 }
-@viewport {
-    zoom: 1.0;
-    width: extend-to-zoom;
-}
-@-ms-viewport {
-    width: extent-to-zoom;
-zoom:1.0;
-}
+
