@@ -83,3 +83,11 @@ footer p {
     padding-bottom:  100px;
 
 }
+@viewport {
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+@-ms-viewport {
+    width: extent-to-zoom;
+zoom:1.0;
+}
