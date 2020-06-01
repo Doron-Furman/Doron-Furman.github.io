@@ -5,11 +5,7 @@ html {
 
 
 body {
-    @media (max-width: 650px) {
-        body.custom-background {
-            background-attachment: scroll !important;
-        }
-    }
+    
     min-height: 400px;
     background-image: url(IMG/hamburger-2044036_1920.jpg);
     background-size: cover;
