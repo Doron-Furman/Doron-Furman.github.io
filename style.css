@@ -1,86 +1,121 @@
-html {
-    height: 100%;
-}
-
-
-
+/*Master styles*/
 body {
-    background-color: rgba(66, 60, 60, 0.151);
-    background-image: url(IMG/hamburger-2044036_1920.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    margin: 0px;
+    grid-template-columns: 1fr;
 }
-
-
 .container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1024px;
-}
-header {
+    display: grid;
     
-    height: 118px;
-   text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-nav {
 
-    background-color: rgba(0, 0, 0, 0.473);
-   padding-top: 14px;
-    text-align: center;
-    padding-bottom: 14px;
 }
-main {
-   
-    height: 400px;
-    text-align: center;
-  
-    padding-top: 80px;
-    padding-left: 240px;
-    padding-right: 240px;
-}
-footer {
-    background-color: rgba(0, 0, 0, 0.623);
-    padding-top: 32px;
-     text-align: center;
-     padding-bottom: 32px;
-     
-}
-h1 {
-    font-size: 84px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-p {
+/*Nav Styles*/
+.brand {
     font-size: 20px;
-    color:black;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif‚
+    font-family: fantasy;
 }
-a {
-    color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+.left-side {
+    display: flex;
+}
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+ .nav-link-wrapper {
+     height: 22px;
+     border-bottom: 1px solid transparent;
+     transition: border-bottom 0.5s;
+ }
+ .nav-link-wrapper a {
+    color: #8a8a8a; 
     text-decoration: none;
-    text-decoration-line: underline;
-}
- nav a {
-    text-decoration: none;
-    font-size: 12px;
-    padding-left: 10px;
-    padding-right: 10px;
+    transition: color 0.5s;
+ }
+ .nav-link-wrapper :hover {
+     border-bottom: 1px solid black;
+ }
+ .nav-link-wrapper a:hover {
+     color: black;
+ }
+/*Portfolio styles*/
 
-} 
-footer p {
-    min-height: 100px;
-    font-size: 14px;
-    color: blanchedalmond;
-}
-.maps {
-    padding-top: 100px;
-    padding-bottom:  100px;
+.Portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
 
 }
+.Portfolio-item-wrapper {
+    position: relative;
+}
 
+.Portfolio-img-Background {
+height: 350px;
+width: 100%;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.img-text-wrapper {
+    position: absolute;
+    top:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.logo-wrapper img {
+    width: 50%;
+    margin-bottom:20px;
+  padding-left: 80px;
+  padding-right: 30px;
+}
+    
+.img-text-wrapper   .Subtitle {
+    transition: 1s;
+    color: transparent;
+    font-weight: 600;
+
+}
+ .img-text-wrapper:hover   .Subtitle {
+
+font-weight: 600;
+color: lightseagreen;    
+
+}
+.img-darken {
+transition: 1s;
+filter: brightness(10%);
+}
+
+/*About page*/
+
+.two-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.profile-image-wrapper img {
+    width: 100%;
+}
+.profile-content-wrapper {
+    padding: 30px;
+    
+}
+.profile-content-wrapper h1 {
+    color: rgb(71, 56, 17);
+    font-family: monospace;
+
+}
+.profile-content-wrapper p {
+    color: rgb(94, 93, 93);
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
