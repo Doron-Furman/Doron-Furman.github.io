@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="./contact.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img  src="images/Ansan-log1o.jpg" alt="Ansan-logo">
+        </header>
+        <nav>
+            
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="#">Videos</a>
+            <a href="#">Upcoming Concerts</a>
+
+            <a href="contact.html">Contact</a>
+         </nav>
+         <main>
+             <h1>Contact us</h1>
+            <form action="https://formspree.io/doronmeister@gmail.com" method="POST"></form>
+          <div class="contact-form">
+    
+        <form>
+             <div class="input-fields">
+                 
+             <input type="text"  class="input"  name="name" placeholder="Full name">
+             <input type="email" class="email"  name="mail" placeholder="Your Email">
+             <input type="text" class="subject" name="subject" placeholder="Subject">
+             </div>
+        <div class="msg">
+            <textarea name="text" class="message" placeholder="Message"></textarea>
+          <div class="status"></div>
+    <button type="submit" class="submit" name="submit">Send Mail</button>
+        </div>
+         </form>
+        </div>  
+    
+         </main>
+         </div>
+    
+</body>
+</html>
