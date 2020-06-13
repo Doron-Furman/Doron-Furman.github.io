@@ -175,7 +175,7 @@ position: absolute;
 .msg textarea {
     height: 212px;
     resize: none;
-    width: 251px;
+    width: 250px;
 }
 ::-webkit-input-placeholder{
     color: #c5ecfd;
