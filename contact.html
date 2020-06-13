@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact us</title>
-   
-
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="./contact.js"></script>
 </head>
 <body>
     <div class="container">
@@ -14,6 +14,7 @@
             <img  src="images/Ansan-log1o.jpg" alt="Ansan-logo">
         </header>
         <nav>
+            
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="#">Videos</a>
@@ -23,23 +24,24 @@
          </nav>
          <main>
              <h1>Contact us</h1>
-            <div class="wrapper"> 
+            <form action="https://formspree.io/doronmeister@gmail.com" method="POST"></form>
           <div class="contact-form">
     
-         <form class ="contact-form" action="contactform.php" method="post">
+        <form>
              <div class="input-fields">
+                 
              <input type="text"  class="input"  name="name" placeholder="Full name">
-             <input type="text" class="input"  name="mail" placeholder="Your Email">
-             <input type="text" class="input" name="subject" placeholder="Subject">
+             <input type="email" class="email"  name="mail" placeholder="Your Email">
+             <input type="text" class="subject" name="subject" placeholder="Subject">
              </div>
         <div class="msg">
-            <textarea name="massage" placeholder="Massage"></textarea>
-          
-    <button type="submit" class="btn" name="submit">Send Mail</button>
+            <textarea name="text" class="message" placeholder="Message"></textarea>
+          <div class="status"></div>
+    <button type="submit" class="submit" name="submit">Send Mail</button>
         </div>
          </form>
         </div>  
-    </div> 
+    
          </main>
          </div>
     

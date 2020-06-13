@@ -1,3 +1,7 @@
+
+
+
+
 const current = document.querySelector('#current');
 const imgs = document.querySelectorAll('.imgs img');
 const opacity = 0.6;
@@ -22,3 +26,5 @@ setTimeout(() => current.classList.remove('fade-in'), 500);
     //Change the opacity to opacity var
     e.target.style.opacity = opacity;
   }
+
+ 
