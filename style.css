@@ -16,7 +16,7 @@ body {
     margin-right: auto;
     width: 100%;
     padding: 0
-  
+    
     
 }
 header {
@@ -26,7 +26,7 @@ header {
    text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-right: 1050px;
+    padding-right: 1px;
 }
 nav  {
 
@@ -35,7 +35,6 @@ nav  {
     text-align: center;
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s;
-     
     
     
 }
@@ -44,7 +43,6 @@ nav a {
     padding-left: 20px;
     text-decoration: none;
     transition: color 0.5s;
-   
     
 }
 nav :hover {
