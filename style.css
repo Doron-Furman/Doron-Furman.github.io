@@ -106,7 +106,7 @@ position: absolute;
 .profile-content-wrapper {
     padding: 30px;
     text-align: center;
-    
+    margin-right: 700px;
 }
 .profile-content-wrapper h1 {
     color: rgb(179, 137, 32);
@@ -116,14 +116,11 @@ display: inline;
   
 }
 
-    
-
-
-
 .profile-content-wrapper p  {
     color: rgb(83, 2, 2);
     font-size: 20px;
     font-family: 'Indie Flower', cursive;
+   
 }
 /* contact page*/
 
