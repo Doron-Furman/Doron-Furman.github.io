@@ -5,10 +5,8 @@ body {
     background-image: url(images/img_1167.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    margin: 0;
-    padding: 0;
     background-size: cover;
-    height: 100px;
+    
     
 }
 .container {
